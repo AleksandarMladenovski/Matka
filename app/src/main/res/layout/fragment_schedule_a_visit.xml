@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+<!--    <TextView-->
+<!--        android:id="@+id/schedule_a_visit_Title"-->
+<!--        android:layout_weight="0.1"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="0dp"-->
+<!--        android:text="@string/schedule_a_visit_title"-->
+<!--        android:layout_gravity="center"-->
+<!--        android:gravity="center"-->
+<!--        android:textSize="21sp"-->
+<!--        android:textColor="@android:color/black"/>-->
+    <LinearLayout
+        android:id="@+id/linearLayout_fragment_galley_no_Internet"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connectivity issues"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:textColor="@android:color/holo_blue_bright"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Please connect to the internet"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:padding="8dp"/>
+        <Button
+            android:id="@+id/try_connection_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="try again"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="21sp"
+            android:textColor="@android:color/holo_blue_bright"
+            android:padding="8dp" />
+
+    </LinearLayout>
+        <ProgressBar
+            android:id="@+id/schedule_a_visit_progressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:visibility="gone"/>
+       <WebView
+           android:id="@+id/schedule_a_visit_webView"
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"
+           android:visibility="gone"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.extremedesign.matka.ui.fragment.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_exhibits"
+        android:name="com.extremedesign.matka.ui.fragment.ExhibitsFragment"
+        android:label="@string/menu_exhibits"
+        tools:layout="@layout/fragment_exhibits" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.extremedesign.matka.ui.fragment.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_history"
+        android:name="com.extremedesign.matka.ui.fragment.HistoryFragment"
+        android:label="@string/menu_history"
+        tools:layout="@layout/fragment_history" />
+
+
+    <fragment
+        android:id="@+id/nav_schedule_a_visit"
+        android:name="com.extremedesign.matka.ui.fragment.Schedule_VisitFragment"
+        android:label="@string/menu_schedule_a_visit"
+        tools:layout="@layout/fragment_schedule_a_visit" />
+
+    <fragment
+        android:id="@+id/nav_contact_us"
+        android:name="com.extremedesign.matka.ui.fragment.ContactUsFragment"
+        android:label="@string/menu_contact_us"
+        tools:layout="@layout/fragment_contact_us" />
+</navigation>

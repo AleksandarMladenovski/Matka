@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">Matka</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_tools">Tools</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_history">History</string>
+    <string name="menu_exhibits">Exhibits</string>
+    <string name="menu_schedule_a_visit">Schedule a visit</string>
+    <string name="menu_about_us">About us</string>
+    <string name="schedule_a_visit_name_and_surname">Name and surname</string>
+    <string name="schedule_a_visit_explanation">Explanation</string>
+    <string name="schedule_a_visit_e_mail_address">E-mail address</string>
+    <string name="schedule_a_visit_send">Send</string>
+    <string name="schedule_a_visit_title">Exhibition Center Matka</string>
+    <string name="schedule_a_visit_content">Visit us and learn something new from the world of electricity. All interested can visit the exhibition center. You can schedule a group visit or visit us individually during working hours. We are expecting you!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="history_text_1">In the thirties of the last century, an artificial lake was built at the exit of the canyon on Lake Treska, with a concrete dam for electricity production. Construction work on the dam began in 1935 and HPP began operations in 1938 with an installed capacity of 4.2 MW.</string>
+    <string name="history_text_2">The construction was extensive and it was a collective venture, a capital project of its time, but credits for it’s construction can be attributed to Professor. Dr. Miladin Pekinar the author of the project, the designer and the man supervising the construction. When the dam was completed, Pekinar standing on its top shouted: “If you the dam goes, let the one who envisioned it go with it”.</string>
+    <string name="history_text_3">During the Second World War, HPP Matka was one of the strategic objects around which battles were fought. It was the target of bombing in the military operations during the retreat of the fascist forces. Even an attempt was made to blow the dam up, but brave group of partisans heroically defended Matka. The dam of HPP Matka has rescued Skopje from floods several times, during the great flood in 1962 and 1979 when the dam held a huge amount of water and contributed to the prevention of major disaster.</string>
+    <string name="history_text_4">The HPP Match today is part of the production of renewable energy of EVN Macedonia. In 2008 it has been reconstructed and a completely new hydropower plan has been built. With the construction of the new powerhouse, located near the old, the old powerhouse ceased operation, after which in 2016 was transformed into an educational and exhibition center.</string>
+    <string name="home_text_motivational">Electricity is available to us with a “click”, but its evolution is long, brilliant and exceptional</string>
+    <string name="menu_contact_us">Contact us</string>
+    <string name="matka_exhibition_center">Matka Exhibition Center</string>
+    <string name="copyright_2018">© Copyright 2018</string>
+    <string name="tel_072_935_105">Tel.: 072/935-105</string>
+    <string name="contact">CONTACT</string>
+    <string name="_10_00_a_m_03_00_p_m">10:00 a.m. – 03:00 p.m.</string>
+    <string name="every_day_except_on_mondays">every day except on Mondays</string>
+    <string name="april_october">April – October</string>
+    <string name="working_hours">WORKING HOURS:</string>
+    <string name="saraj_municipality_skopje">Saraj Municipality, Skopje</string>
+    <string name="canyon_matka">Canyon Matka</string>
+    <string name="location">LOCATION</string>
+    <string name="evn">EVN</string>
+    <string name="open_in_google_maps">Open in Google Maps</string>
+    <string name="display_exhibit_content">Today you can see original old items, archive materials, films, photographs, interviews, real components of the electric and energy system as well as unique educational models designed for the center and for learning through interaction</string>
+    <string name="display_exhibit_content_2">Discover the path of electricity from its production to its final destination in our homes, factories, hospitals, schools…</string>
+    <string name="display_exhibit_title">Display of the exhibition center</string>
+    <string name="display_exhibit_title_2">Electro distribution system</string>
+    <string name="display_exhibit_title_3">Control room</string>
+    <string name="display_exhibit_content_3">The employees oversaw the work of the hydroelectric power plant from the control room. You too have the opportunity to see how 80-year-old instruments work.</string>
+    <string name="display_exhibit_title_4">Dispatch board</string>
+    <string name="display_exhibit_content_4">Look at the original dispatch board, which was used in the old “Elektrostopanstvo” until 1974. By introducing modern information technologies and digitalization of the EVN network, this board became a reminder of the work of the dispatchers in the past.</string>
+    <string name="display_exhibit_title_5">Light bulbs</string>
+    <string name="display_exhibit_content_5">The light bulb is an electric device that we use daily. Like other devices, some consume more and some less energy. Do you know which bulb consumes the most? Try to find the answer yourselves.</string>
+    <string name="display_exhibit_title_6">Photovoltaics</string>
+    <string name="display_exhibit_content_6">How solar energy turns to electrical energy with the help of solar panels? We have a mini sun, so go head and try to produce as much electricity as you can with it.</string>
+    <string name="display_exhibit_title_7">Windmill</string>
+    <string name="display_exhibit_content_7">Wind is one of the renewable source of energy. Learn how with the help of windmills, the force of the wind can be set to produce electricity.</string>
+    <string name="display_exhibit_title_8">Van de Graaff</string>
+    <string name="display_exhibit_content_8">How does electricity affect near-by objects? With the Van de Graaff regenerator we will help you find out without the danger of “electrocution”.</string>
+    <string name="display_exhibit_title_9">Plasma ball</string>
+    <string name="display_exhibit_content_9">Magic light beams through a glass ball touching your hand, and you don’t know why? Visit us and learn about the effects the plasma ball has on the human body.</string>
+    <string name="menu_videos">Videos</string>
+</resources>

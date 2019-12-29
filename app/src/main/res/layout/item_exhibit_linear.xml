@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#eee"
+    android:elevation="3dp"
+    android:layout_margin="8dp">
+
+    <TextView
+        android:id="@+id/exhibit_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Display of the exhibition center"
+        android:textSize="16sp"
+        android:textColor="@android:color/black"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/exhibit_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/eksponati_2"
+        android:adjustViewBounds="true"/>
+
+    <TextView
+        android:id="@+id/exhibit_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/display_exhibit_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        />
+
+</LinearLayout>
